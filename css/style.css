@@ -9,53 +9,6 @@ body:after {
 body:after {
   clear: both;
 }
-.donate_bar {
-  text-align: center;
-  margin-top: 5%;
-}
-.donate_bar a.btn_donate {
-  display: inline-block;
-  width: 147px;
-  height: 47px;
-  margin-left: auto;
-  margin-right: auto;
-  background: url("/img/dsan.png") no-repeat;
-  -webkit-transition: background 0s;
-  -moz-transition: background 0s;
-  -o-transition: background 0s;
-  -ms-transition: background 0s;
-  -webkit-transition: background 0s;
-  -moz-transition: background 0s;
-  -ms-transition: background 0s;
-  transition: background 0s;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-.donate_bar a.btn_donate:hover {
-  background-position: 0 -82px;
-}
-.donate_bar .donate_txt {
-  display: block;
-  color: #555;
-  font-size: 17px;
-  font-weight: bold;
-}
-.donate_bar.hidden {
-  display: none;
-}
-.post-donate {
-  margin-top: 50px;
-}
-#donate_guide {
-  height: 210px;
-  width: 420px;
-  margin: 0 auto;
-}
-#donate_guide img {
-  height: 200px;
-  height: 200px;
-  margin-right: 50px;
-}
 @font-face {
   font-family: 'FontAwesome';
   src: url("fonts/fontawesome-webfont.eot");
@@ -2338,7 +2291,4 @@ pre .css ~ * .id {
   padding: 0;
   height: 100%;
   overflow: hidden;
-}
-#container .share_jia {
-  padding: 0 40px;
 }
